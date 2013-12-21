@@ -1,0 +1,27 @@
+{
+  "name": "pushover-cli",
+  "version": "0.1.0",
+  "description": "Pushover.net command line client",
+  "homepage": "http://github.com/JonGretar/pushover-cli",
+  "bin" : {
+    "pushover" : "bin/pushover.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git://github.com/JonGretar/pushover-cli",
+  "dependencies": {
+    "pushover-notifications": "~0.1.6",
+    "optimist": "~0.3.5"
+  },
+  "keywords": [
+    "cli",
+    "push",
+    "notifications"
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
+  "author": "Jon Gretar Borgthorsson <jongretar@jongretar.com>",
+  "license": "MIT"
+}
